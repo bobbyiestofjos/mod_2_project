@@ -1,31 +1,32 @@
 
 # Module 2 Final Project
 
-
-## Introduction
-
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module 2.
-
-## Objectives
-You will be able to:
-
-* Describe all required aspects of the final project for Module 2
-* Describe all required deliverables
-* Describe what constitutes a successful project
-
-## Final Project Summary
-
-Another module down--you're almost half way there!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-2-project-v2-1/master/halfway-there.gif)
-
-All that remains in Module 2 is to put our newfound data science skills to use with a final project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
-
 ## The Dataset
 
-For this project, you'll be working with the King County House Sales dataset. We've modified the dataset to make it a bit more fun and challenging.  The dataset can be found in the file `"kc_house_data.csv"`, in this repo.
+For this project, you'll be working with the King County House Sales dataset `"kc_house_data.csv"`.
 
-The description of the column names can be found in the column_names.md file in this repository. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means.
+### Column Names and descriptions for Kings County Data Set
+* **id** - unique identified for a house
+* **date** - date house was sold
+* **price** -  price is prediction target
+* **bedrooms** -  number of Bedrooms/House
+* **bathrooms** -  number of bathrooms/bedrooms
+* **sqft_living** -  square footage of the home
+* **sqft_lot** -  square footage of the lot
+* **floors** -  total floors (levels) in house
+* **waterfront** - House which has a view to a waterfront
+* **view** - Has been viewed
+* **condition** - How good the condition is ( Overall )
+* **grade** - overall grade given to the housing unit, based on King County grading system
+* **sqft_above** - square footage of house apart from basement
+* **sqft_basement** - square footage of the basement
+* **yr_built** - Built Year
+* **yr_renovated** - Year when house was renovated
+* **zipcode** - zip
+* **lat** - Latitude coordinate
+* **long** - Longitude coordinate
+* **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
+* **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
 
 You'll clean, explore, and model this dataset with a multivariate linear regression to predict the sale price of houses as accurately as possible.
 
@@ -33,9 +34,9 @@ You'll clean, explore, and model this dataset with a multivariate linear regress
 
 There will be several deliverables for this project:
 
-1. A well documented **Executive Jupyter Notebook** containing any code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project.  
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
-3. A short **Keynote/PowerPoint/Google Slides presentation** (delivered as a PDF export) giving a high-level overview of your methodology and recommendations for non-technical stakeholders. Make sure to also add and commit this pdf of your non-technical presentation to your repository with a file name of presentation.pdf.
+1. **Executive Jupyter Notebook** - A well documented notebook containing any code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project.  
+2. **README.md** - An organized README file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.  
+3. **Presentation Deck** - A short presentation (delivered as a PDF export) giving a high-level overview of your methodology and recommendations for non-technical stakeholders. Make sure to also add and commit this pdf of your non-technical presentation to your repository with a file name of **presentation.pdf**.
 
 ### Executive Jupyter Notebook Must-Haves
 
