@@ -1,4 +1,4 @@
-price,bedrooms,bathrooms,sqft_living,sqft_lot,floors,waterfront,condition,grade,sqft_above,sqft_basement,yr_built,yr_renovated,zipcode,living_density
+price,bedrooms,bathrooms,sqft_living,sqft_lot,floors,waterfront,condition,grade,sqft_above,sqft_basement,yr_built,yr_renovated,zipcode,density
 482000.0,3,1.75,2600,105587,1.0,0.0,4,7,1300,1300,1980,0.0,98070,0.024624243514826637
 1610000.0,4,2.75,5470,18200,2.0,1.0,3,11,3730,1740,1992,0.0,98118,0.30054945054945054
 410000.0,2,1.5,1180,1034,2.0,0.0,3,7,1120,60,2001,,98115,1.1411992263056092
