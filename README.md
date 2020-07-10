@@ -9,7 +9,7 @@ This Readme lays out the details of the Module 2 Final Project for Clair Marie W
 We were tasked with analyzing the dataset in the "data" directory of this repository and to provide a linear regression model that could help answer the following questions:  
 1) Which features predict the price of a home, and by how much?  
 2) Does density, as defined by the ratio of living area to lot area, affect house price?  
-3)   
+3) What is the difference in price between urban and non-urban homes.  
 
 ## Repository Contents
 
